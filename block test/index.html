@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blocks</title>
+  <style>
+    * {
+      font-size: 30px;
+    }
+    .login {
+      width: auto;
+    }
+
+    input{
+      padding: 20px;
+      border: solid 2px gray;
+      margin-bottom: 12px;
+      margin-right: 10px;
+      border-radius: 10px;
+      width: 198px;
+      display: inline-block;
+    }
+
+    .email {
+      width: 460px;
+      display: block;
+    }
+
+    .submit {
+      background-color: rgb(110, 110, 243);
+      width: 500px;
+      color: white;
+      transition: .3s;
+      font-weight: bold;
+    }
+
+    .submit:hover{
+      opacity: .7;
+    }
+
+    .submit:active {
+      opacity: .5;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="login">
+    <input type="text" placeholder="First Name" maxlength="20">
+    <input type="text" placeholder="Last Name" maxlength="20">
+    <input class="email" type="email" placeholder="Email">
+    <input class="submit" type="submit" value="Sign Up"> 
+  </div>
+</body>
+
+</html>
